@@ -4,7 +4,7 @@
  *
  * Description: using the main funtion
  * this program prints "Programming is positive, zero, or negative
- * Retun: 0
+ * Return: 0
  */
 int main(void)
 {
