@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main- program that prints all possible combinations of two two-digit numbers
+ * main- prints numbers between 00 to 99
+ *
  * Return: 0
  */
 int main(void)
@@ -27,7 +28,7 @@ putchar(g);
 putchar(' ');
 putchar(e);
 putchar(i);
-if (h == 57 && e == 57 && i == 57)
+if (h == 57 && g == 56 && e == 57 && i == 57)
 break;
 putchar(',');
 putchar(' ');
