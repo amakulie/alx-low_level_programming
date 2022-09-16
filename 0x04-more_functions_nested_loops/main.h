@@ -2,10 +2,10 @@
 #define MAIN_H
 
 /**
-*main - header file for protoypes
-*void protoypes (protoypes)
-*int protoypes (int)
-*/
+ * main - header file for protoypes
+ * void protoypes (protoypes)
+ * int protoypes (int)
+ */
 
 void print_numbers(void);
 void print_most_numbers(void);
