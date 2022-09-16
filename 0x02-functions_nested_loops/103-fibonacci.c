@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Return: Always o (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int a = 0, b = 1, next = 0;
+int a =0, b = 1, next = 0;
 int sum = 0;
 
 while (next < 4000000)
@@ -18,7 +18,7 @@ a = b;
 b = next;
 if (next % 2 == 0)
 sum += next;
-i}
+}
 printf("%i\n", sum);
 return (0);
 }
