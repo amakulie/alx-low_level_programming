@@ -3,7 +3,7 @@
 
 /**
  * main - header file for protoypes
- * void protoypes (protoypes)
+ * void protoypes (void)
  * int protoypes (int)
  */
 
