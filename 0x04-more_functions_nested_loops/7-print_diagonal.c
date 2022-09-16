@@ -20,7 +20,6 @@ for(space = 0; space < len; space++)
 putchar(' ');
 }
 putchar('\\');
-i
 if (len == (n - 1))
 {
 continue;
@@ -28,4 +27,5 @@ continue;
 putchar('\n');
 }
 }
+putchar('\n');
 }
