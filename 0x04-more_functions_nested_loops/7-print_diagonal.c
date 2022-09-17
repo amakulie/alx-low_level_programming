@@ -28,8 +28,8 @@ void print_diagonal(int n)
 			{
 				continue;
 			}
-			putchari("\n");
+			putchar("\n",);
 		}
 	}
-	putchar("\n");
+	putchar("\n",);
 }
