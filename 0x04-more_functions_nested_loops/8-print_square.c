@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * print_sqaures - prints squares
+ * print_squares - prints squares
  * @size: parameter
  * Return: returns nothing
  */
 
-void print_sqaure(int size)
+void print_square(int size)
 {
 	int inc1, inc2;
 	if (size > 0)
