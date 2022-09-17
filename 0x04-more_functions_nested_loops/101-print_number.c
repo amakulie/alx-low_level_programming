@@ -26,7 +26,7 @@ n = n / 10;
 }
 
 r = 0;
-while (n >0)
+while (n > 0)
 {
 	r = r * 10 + (n % 10);
 	n = n / 10;
@@ -35,9 +35,9 @@ while (n >0)
 
 while (n > 0)
 {
-cr = (char)(( n% 10) + '0');
-_putchar (cr);
-r = r / 10
+cr = (char)((n % 10) + '0');
+_putchar(cr);
+r = r / 10;
 ct--;
 }
 while (ct !=0)
