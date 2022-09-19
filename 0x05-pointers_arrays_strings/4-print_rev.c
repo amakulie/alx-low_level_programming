@@ -14,5 +14,5 @@ int len = strlen(s);
 
 while (len--)
 putchar(*(s + len));
-putcahr(10);
+putchar(10);
 }
