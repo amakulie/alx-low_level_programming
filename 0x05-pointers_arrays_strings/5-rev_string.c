@@ -26,7 +26,7 @@ tmp = *(s + i);
  * Returns: the length of the given string
  */
 
-int _strlen(char *s)
+void int _strlen(char *s)
 {
 int len = 0;
 
