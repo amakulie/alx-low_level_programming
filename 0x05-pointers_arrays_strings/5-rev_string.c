@@ -23,7 +23,7 @@ tmp = *(s + i);
  * _strlen - returns the length of a string
  * @s: string
  *
- * Returns: the length of the given string
+ * Return: the length of the given string
  */
 
 int _strlen(char *s)
