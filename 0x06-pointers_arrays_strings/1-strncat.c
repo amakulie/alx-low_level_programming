@@ -17,7 +17,7 @@ while (dest[index++])
 	dest_len++;
 
 for (index = 0; src[index] && index < n; index++)
-	dest[dest-len++] = src[index]'
+	dest[dest-len++] = src[index];
 
-retrn (dest);
+return (dest);
 }
