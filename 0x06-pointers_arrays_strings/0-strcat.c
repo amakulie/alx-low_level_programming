@@ -20,5 +20,5 @@ while (dest[index++])
 for (index = 0; src[index]; index++)
 	dest[dest_len++] = src[index];
 
-retrun (dest);
+return (dest);
 }
