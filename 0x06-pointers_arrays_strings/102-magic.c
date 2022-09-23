@@ -2,7 +2,7 @@
 
 
 /**
- * main- Entry point
+ * main - Entry point
  * Decscription: adds a line in the code and uses printf
  * Return: 0
  */
