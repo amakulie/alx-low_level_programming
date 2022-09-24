@@ -13,16 +13,14 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		m = n *-1;
+		m = n * -1;
 	}
 	else
 	{
 		m = n;
 	}
-	
 	d = m;
 	len = 1;
-	
 	while (d > 9)
 	{
 		d /= 10;
