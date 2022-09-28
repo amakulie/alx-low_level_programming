@@ -5,7 +5,7 @@
  * @s: string to check
  * @accept: string to check against
  *
- * *return: pointer to byte in s that matches or NULL if no match
+ * Return: pointer to byte in s that matches or NULL if no match
  */
 char *_strpbrk(char *s, char *accept)
 {
