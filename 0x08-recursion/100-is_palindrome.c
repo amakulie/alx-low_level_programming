@@ -10,7 +10,7 @@ int is_palindrome(char *s)
 {
 	int flag = 1;
 
-	check (s, 0, _strlen_recursion(s) - 1 &flag);
+	check (s, 0, _strlen_recursion(s) - 1, &flag);
 	return (flag);
 }
 /**
@@ -38,7 +38,7 @@ void check(char *s, int start, int end, int *flag)
  *
  * Return: length of the string
  */
-int_strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int sum = 0;
 
