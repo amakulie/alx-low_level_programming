@@ -24,8 +24,9 @@ int is_palindrome(char *s)
  */
 void check(char *s, int start, int end, int *flag)
 {
-	if (s[start] == s[end])
+	if (start <= end)
 	{
+	if (s[start] == s[end])
 		*flag *= 1;
 	else
 		*flag *= 0;
