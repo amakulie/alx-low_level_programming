@@ -40,7 +40,8 @@ char *argstostr(int ac, char **av)
 	if (new_string != NULL)
 	{
 		while (k < i)
-		{for (j = 0; av[k][j] != '\0'; j++)
+		{
+			for (j = 0; av[k][j] != '\0'; j++)
 			new_string[j + temp] = av[k][j];
 			new_string[temp + j] = '\n';
 			temp += (j + 1);
