@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * array_range - creates an array of integers
- * @min: first integer number
- * @max: last integer number
+ * array_range - creates an array of integers.
+ * @min: minimum value.
+ * @max: maximum value.
  *
  * Return: pointer to newly allocated memory or NULL if fails
  */
