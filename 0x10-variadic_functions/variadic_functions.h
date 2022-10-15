@@ -8,7 +8,6 @@
  * @t: print type
  * @f: print function
  */
-
 typedef struct print
 {
 	char *t;
