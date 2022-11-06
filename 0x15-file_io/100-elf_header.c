@@ -132,7 +132,7 @@ void print_version(unsigned char *e_ident)
 void print_osabi(unsigned char *e_ident)
 {
 	printf("  OS/ABI:                            ");
-	
+
 	switch (e_ident[EI_OSABI])
 	{
 		case ELFOSABI_NONE:
@@ -176,7 +176,7 @@ void print_osabi(unsigned char *e_ident)
  */
 void print_abi(unsigned char *e_ident)
 {
-	printf("  ABI Version:                       %d\n",
+	printf ("  ABI Version:                       %d\n",
 			e_ident[EI_ABIVERSION]);
 }
 
@@ -210,6 +210,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 			printf("CORE (Core file)\n");
 			break;
 		default:
+			printf("<unknown: %x>\n", e_type);
 	}
 }
 
